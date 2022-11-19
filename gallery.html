@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-eqsuiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+          <title>Document</title>
+          <style>
+                    .st{ grid-area: first;height: 500px;}
+.it1{ grid-area: a;}
+.it2{ grid-area: b;}
+.it3{ grid-area: c;}
+.it4{ grid-area: d;}
+.la1{ grid-area: e; height: 150px;}
+.la2{ grid-area: f;}
+.main{
+          display: grid;
+          grid-template-areas: 'first first a b'
+          'first first c d'
+          'e e f f';
+          gap: 20px;
+          background-color: white;
+          padding: 10px;
+}
+.main>div{
+          background-color: gray;
+          padding: 20px 0;
+}
+
+
+          </style>
+</head>
+<body>
+          <div class="main">
+          <div class="st"> </div>
+          <div class="it1"></div>
+          <div class="it2"></div>
+          <div class="it3"></div>
+          <div class="it4"></div>
+          <div class="la1"></div>
+          <div class="la2"></div>
+          </div>
+          
+                   
+
+          
+</body>
+</html>
